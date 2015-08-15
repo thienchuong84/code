@@ -3,8 +3,26 @@
 	<meta charset="utf-8">
 </head>
 <body>
+<b>Questions</b><br />
+1. What actual underlying values are represented by TRUEand FALSE?<br />
+2. What are the simplest two forms of expressions?<br />
+3. What is the difference between unary, binary, and ternary operators?<br />
+4. What is the best way to force your own operator precedence?<br />
+5. What is meant by operator associativity?<br />
+6. When would you use the ===(identity) operator?<br />
+7. Name the three conditional statement types.<br />
+8. What command can you use to skip the current iteration of a loop and move on
+to the next one?<br />
+9. Why is a forloop more powerful than a whileloop?<br />
+10. How do  ifand  whilestatements interpret conditional expressions of different
+data types?<br />
+See Chapter 4 Answersin Appendix Afor the answers to these questions.<br />
+Expression : TRUE or FALSE. Example : <br /><br /><br /><br /><br />
 
-Expression : TRUE or FALSE. Example : <br />
+
+
+
+
 <?php
 echo "a: [" . (20 > 9) . "]<br>";
 echo "b: [" . (5 == 6) . "]<br>";
