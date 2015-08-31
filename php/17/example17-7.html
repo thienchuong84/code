@@ -24,10 +24,12 @@
             if (this.responseText != null)
             {
               titles = this.responseXML.getElementsByTagName('title')
+			  link = this.responseXML.getElementsByTagName('link')
 
               for (j = 0 ; j < titles.length ; ++j)
               {
                 out += titles[j].childNodes[0].nodeValue + '<br>'
+				out += link[j].childNodes[0].nodeValue + '<br>'
               }
               document.getElementById('info').innerHTML = out  
             }
